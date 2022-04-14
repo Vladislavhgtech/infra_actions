@@ -22,4 +22,3 @@ class StaticPagesURLTests(TestCase):
 
         response = self.guest_client.get('/second_page/')
         self.assertEqual(response.status_code, HTTPStatus.OK)
-
